@@ -1,2 +1,240 @@
 credentials.json
 credentials.json
+# ================================
+# VIRTUAL ENVIRONMENTS
+# ================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+venv.bak/
+
+# ================================
+# SECRETS & API KEYS
+# ================================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+*.pem
+*.key
+secrets.json
+secrets.yaml
+config.json
+
+# ================================
+# PYTHON CACHE & COMPILED FILES
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ================================
+# JUPYTER NOTEBOOKS
+# ================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ================================
+# TESTING & COVERAGE
+# ================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+test-results/
+junit.xml
+
+# ================================
+# ML & DATA FILES
+# ================================
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.joblib
+*.model
+*.pt
+*.pth
+*.onnx
+*.safetensors
+data/raw/
+data/processed/
+datasets/
+checkpoints/
+models/
+
+# ================================
+# VECTOR DATABASES & INDEXES
+# ================================
+chroma_db/
+faiss_index/
+pinecone_index/
+qdrant_storage/
+weaviate_data/
+*.index
+*.faiss
+
+# ================================
+# LOGS & OUTPUTS
+# ================================
+*.log
+logs/
+*.out
+output/
+outputs/
+results/
+reports/
+*.txt.bak
+langsmith_logs/
+
+# ================================
+# DOCKER
+# ================================
+.docker/
+docker-compose.override.yml
+
+# ================================
+# NODE / FRONTEND (if any)
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.yarn/
+dist/
+.next/
+.nuxt/
+
+# ================================
+# IDEs & EDITORS
+# ================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS FILES
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# TEMPORARY FILES
+# ================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+tmp/
+temp/
+
+# ================================
+# STREAMLIT
+# ================================
+.streamlit/secrets.toml
+
+# ================================
+# LANGCHAIN / LANGSMITH
+# ================================
+.langchain/
+langchain.db
+langsmith/
+
+# ================================
+# DATABASES
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+*.sql.bak
+redis_data/
+postgres_data/
+
+# ================================
+# CLOUD & INFRASTRUCTURE
+# ================================
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraformrc
+terraform.rc
+.aws/
+.gcp/
+*.kubeconfig
+
+# ================================
+# MEDIA & LARGE FILES
+# ================================
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.mkv
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.iso
+
+# ================================
+# PROJECT SPECIFIC OUTPUTS
+# ================================
+meal_plan.txt
+email_drafts/
+generated_reports/
+scraped_data/
